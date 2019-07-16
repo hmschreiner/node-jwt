@@ -1,0 +1,17 @@
+{
+  "name": "node-jwt",
+  "version": "1.0.0",
+  "description": "Exemplo de API em Node.js usando JWT",
+  "scripts": {
+    "start": "npx babel-node src"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}
